@@ -100,6 +100,11 @@
 				type = "text",
 				text = "ccTile: " + ccTile.asString(),
 			},
+			{
+				id = 91,
+				type = "text",
+				text = "Tile Level: " + lastTileHovered.Level,
+			},
 		]);
 
 		return ret;
