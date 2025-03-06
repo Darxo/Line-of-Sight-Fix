@@ -24,7 +24,7 @@ In Vanilla Sunken Library fight the level of tiles can raise and fall therefor m
 		}
 	}
 
-	// Returns whether the two given tiles can theoretically see each
+	// Returns whether the two given tiles can theoretically see each other
 	// Unknown combination are calculated and written into an internal LOSMatrix
 	// The lookup of known combination is very fast
 	function hasLineOfSight(_originTile, _targetTile)

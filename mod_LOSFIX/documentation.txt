@@ -6,9 +6,14 @@ These two rewrites can be turned off in the options.
 
 ### Future Plans: ###
 
-- Maybe pre-generated visibility from every tile to every tile at the start of a battle? Unfortunately this action is highly expensive and not realistic
+- Explain the exact functionality of this line of sight implementation on a high level
 
 ### Changes: ###
+
+1.0.0
+	- Add "Tile Level" to the list of debug-information viewable when the debug setting is active
+	- Fix(Vanilla) 2-tile melee attacks sometimes not being allowed when aiming around a hill
+	- Fix Scenarios not loading correctly
 
 0.3.2
 	- Fix Bushes and other Vegetation not hiding entities in them correctly
